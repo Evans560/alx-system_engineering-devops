@@ -1,2 +1,4 @@
 #!/bin/bash
-echo $((0bBEST))
+BEST="School"
+echo "BEST=$BEST"
+echo "BEST=$BEST"
