@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..z} | tr -d ' ' | tr 'a-z' '[n-za-m]'
+echo '[Got]' | tr ' ' '\n' | tr 'n-z' 'a-mn-z'
