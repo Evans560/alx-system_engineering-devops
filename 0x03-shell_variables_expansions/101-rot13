@@ -1,0 +1,2 @@
+#!/bin/bash
+echo -e '#!/bin/bash\necho "rpub {n..z} | rpub {a..m}" | tr "n-z" "a-mn-z" | bash\necho "rpub {N..Z} | rpub {A..M}" | tr "N-Z" "A-MN-ZA-M" | bash'
